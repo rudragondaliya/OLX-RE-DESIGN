@@ -1,3 +1,6 @@
+
+/* navbar */
+
 *{
     margin: 0;
     padding: 0;
@@ -31,75 +34,49 @@
     height: 60px;
 }
 
+/* overview section */
+
 .overview{
     background-color:#1c1c1c; 
 }
 
+/* our leader */
 
-
-
-@media(max-width:576px){
- 
-    /*navbar  */
-    .navbar-nav{
-        flex-direction: row !important;
-        width: 100% !important;
-        margin-left: -25px !important;
-        
-    }
-
-    .nav-link{
-        font-size: 13px !important;
-    }
-
-    .navbar-brand{
-        margin-left: 60px !important;
-    }
-
-    #logo{
-        height: 30px !important;
-    }
-
-    .nav-item{
-        padding-left: 10px !important;
-        margin-top: 10px;
-        width: 100%;
-
-
-    }
-
-    /* overview-section */
-
-    
-
+.leader{
+    background-color: #1c1c1c;
 }
 
-@media(max-width:992px) {
+/* mission */
 
-    .navbar-nav{
-        flex-direction: row !important;
-        width: 100% !important;
-    }
-
-    #logo{
-        height: 65px;
-        margin-left: -80px;
-    }
-
-
-    .nav-item{
-        padding-left: 10px !important;
-        margin-top: 10px;
-    }
-
-    
+.mission{
+    background-color:#1c1c1c; 
 }
 
-@media (max-width:1400px){
-
-    /* overview */
-
-    .overview-txt{
-        margin-left: 10px !important;
-    }
+.mission-card{
+    width: 28rem;
+    margin-left: 200px;
 }
+
+.mission-img{
+    margin-left: 580px;
+    margin-top: -150px;
+}
+
+
+/* intro */
+
+.intro{
+    background-color: #1c1c1c;
+}
+
+.intro-card{
+    width: 25rem;
+    margin-left: 650px;
+}
+
+.intro-img{
+    margin-left: 180px;
+    margin-top: -150px;
+}
+
+
