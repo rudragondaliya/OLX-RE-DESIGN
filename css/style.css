@@ -79,4 +79,150 @@
     margin-top: -150px;
 }
 
+/* global-influence */
 
+.global{
+    background-color: #1c1c1c;
+}
+
+.record-1{
+    background-color: #515151;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.record-2{
+    background-color: #515151;
+}
+
+.record-3{
+    background-color: #515151;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* our-achivement */
+
+.achievement{
+    background-color: #1c1c1c;
+}
+
+.box-1{
+    background-color: #515151;
+}
+
+.box-2{
+    background-color: #515151;
+}
+
+/* companies */
+
+.company{
+    background-color: #1c1c1c;
+}
+
+/* .img-bike{
+    w
+}
+ */
+
+
+
+/* Home page css */
+
+#nav-2{
+    display: none;
+}
+/* N A V I G A T I O N */
+
+/* H O M E - A N D - C A R T - S E C T I O N */
+#home-page,
+#cart-section{
+    padding-top: 80px;
+}
+
+/* H O M E - A N D - C A R T - S E C T I O N */
+
+/* S E A R C H - B U T T O N */
+
+::placeholder{
+   color: gray !important;
+}
+
+input:focus{
+   outline: none !important;
+}
+/* S E A R C H - B U T T O N */
+
+
+.navbar,
+.more-less{
+     transition: top 0.3s;
+}
+
+.search{
+    width: 100%;
+    padding: 5px;
+}
+
+/* S L I D E R */
+.slider{
+    display: none;
+}
+
+.slider .row{
+    scrollbar-width: none;
+    
+}
+/* S L I D E R */
+
+/* R E C O M M E N D A T I O N - A N D - S I M I L A R - S E C T I O N */
+
+.recommendation-item .card p, .similar-section-item .card p{
+    font-size: small !important;
+}
+
+.recommendation-item:hover, .similar-section-item:hover{
+    transform: translateY(-10px);
+    transition: 0.2s ease-in-out;
+}
+
+.similar-section-item img, .recommendation-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 50%;
+}
+
+/* R E C O M M E N D A T I O N - A N D - S I M I L A R - S E C T I O N */
+
+.more-less{
+    transition: 1s !important;
+}
+
+.bi-google{
+    background-image: linear-gradient(to right  , #4285F4,#EA4335,#FBBC05,#34A853);
+    background-clip: text;
+    color: transparent;
+}
+
+/* O T P - V E R I F I C A T I O N */
+
+.otp-field input {
+    width: 65px;
+}
+
+.otp-field input::-webkit-outer-spin-button,
+.otp-field input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* O T P - V E R I F I C A T I O N */
+
+/* F O O T E R */
+
+.accordion-footer{
+    display: none;
+}
+
+/* F O O T E R */

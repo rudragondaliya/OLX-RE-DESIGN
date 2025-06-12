@@ -55,6 +55,13 @@
         margin-left: 10px;
     }
     
+    .num{
+        font-size:15px !important;
+    }
+
+    .global-txt{
+        font-size: 15px;
+    }
     
 
 }
@@ -64,6 +71,10 @@
     .mission-card{
         margin-left: 0px;
         width: 23rem;
+    }
+    .mission-img{
+        margin-left: 0px;
+        width: 100;
     }
 
     .intro-card{
